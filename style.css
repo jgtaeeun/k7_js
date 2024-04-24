@@ -28,8 +28,10 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 30px;
+}
 
+header > h1, header > p {
+    padding: 10px 30px;
 }
 
 nav {
@@ -56,10 +58,16 @@ nav > ul > li{
 }
 
 
-a, a:link, a:visited{
-    color : none;
+a{
+    color : white;
     text-decoration: none;
 }
+
+a:link, a:visited{
+    color : black;
+    
+}
+
 
 nav > ul > li :hover{
     background-color : darkslateblue;
@@ -97,3 +105,4 @@ section >ul >li:hover {
      background-color: coral;
      color : white; 
 }
+
