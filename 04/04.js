@@ -5,6 +5,25 @@
 // 2-3. 사용자 버튼 클릭마다 사용자 이미지 속성 바꾸기
 // 3.이미지 비교하고 결과창에 같음 다름 텍스터 속성 바꾸기
 
+const compare = (n,imgu_1,imgc_1,result_1)=>{
+    imgu_1.setAttribute ('src' , `../03/img/${n}.png`);    // 백틱문자
+    imgu_1.setAttribute ('alt' , `${n}`);
+
+    
+    const num =  Math.floor(Math.random()*6) +1 ;
+    imgc_1.setAttribute ('src' , `../03/img/${num}.png`);    // 백틱문자
+    imgc_1.setAttribute ('alt' , `${num}`);
+
+    // 3.이미지 비교하고 결과창에 같음 다름 텍스터 속성 바꾸기
+
+     
+    if (imgc_1.getAttribute('src') == imgu_1.getAttribute('src'))
+          result_1.innerHTML = '같음';
+    else result_1.innerHTML = '다름';
+
+}
+
+
 
 
 document.addEventListener('DOMContentLoaded' , ()=>{
@@ -24,20 +43,7 @@ document.addEventListener('DOMContentLoaded' , ()=>{
               
 
               bts1.addEventListener('click' , ()=>{
-                imgu.setAttribute ('src' , `../03/img/${1}.png`);    // 백틱문자
-                imgu.setAttribute ('alt' , `${1}`);
-
-                
-                const num =  Math.floor(Math.random()*6) +1 ;
-                imgc.setAttribute ('src' , `../03/img/${num}.png`);    // 백틱문자
-                imgc.setAttribute ('alt' , `${num}`);
-
-                // 3.이미지 비교하고 결과창에 같음 다름 텍스터 속성 바꾸기
-
-                 
-                if (imgc.getAttribute('src') == imgu.getAttribute('src'))
-                  result.innerHTML = '같음';
-                else result.innerHTML = '다름';
+                compare(1, imgu,imgc,result);
 
              });
 
