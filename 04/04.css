@@ -1,0 +1,55 @@
+#btDiv{
+    width: 100% ;
+    height : 40vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#btDiv1{
+    width: 45% ;
+    height : 30vh;
+    border: none;
+    
+    margin : 0  ;
+    padding : 10px ;
+}
+
+#computer , #user {
+    width: 100% ;
+    height : 80%;
+    display: flex;
+    flex-direction: column;
+    margin:0; 
+    border: none;
+    font-size: 20px;
+   
+}
+
+
+#computer > ul > li , #user > ul > li {
+   
+   text-align: center;
+
+}
+
+#selectbt{
+    width: 100% ;
+    height : 10vh;
+    border: none; 
+    align-items:normal;
+    margin : 0 10px;
+    padding : 0 10px;
+}
+
+#select1 ,#select2, #select3,#select4,#select5,#select6{
+ width: 75px; 
+ height: 60px;
+
+ background-color: blue;
+ color: white;
+
+ border-radius: 5px;
+ font-size: 15px;
+ font-weight: bold;
+ 
+}
