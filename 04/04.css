@@ -1,25 +1,27 @@
 #btDiv{
     width: 100% ;
     height : 40vh;
+    padding : 0 10px;
     display: flex;
     flex-direction: column;
 }
 
 #btDiv1{
     width: 45% ;
-    height : 30vh;
+    height : 50vh;
     border: none;
     
     margin : 0  ;
-    padding : 10px ;
+    padding : 0 ;
 }
 
 #computer , #user {
     width: 100% ;
-    height : 80%;
+    height : 30vh;
     display: flex;
     flex-direction: column;
     margin:0; 
+    padding : 0 10px;
     border: none;
     font-size: 20px;
    
@@ -29,6 +31,8 @@
 #computer > ul > li , #user > ul > li {
    
    text-align: center;
+   margin: 0;
+   padding : 0;
 
 }
 
@@ -52,4 +56,29 @@
  font-size: 15px;
  font-weight: bold;
  
+}
+#select1:hover{
+    background-color: lightblue;
+
+}
+#select2:hover{
+    background-color: lightblue;
+
+}
+#select3:hover{
+    background-color: lightblue;
+
+}
+#select4:hover{
+    background-color: lightblue;
+
+}
+#select5:hover{
+    background-color: lightblue;
+
+}
+
+#select6:hover{
+    background-color: lightblue;
+
 }
