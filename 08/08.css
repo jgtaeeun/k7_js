@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  
+}
+
+article{
+    background-color: lightblue;
+    width : 330px;
+    height: 450px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.btDiv08{
+  
+}

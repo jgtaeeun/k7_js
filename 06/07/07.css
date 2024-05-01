@@ -1,0 +1,141 @@
+
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    /* width: 1140px;          
+    height : 100%;
+    margin: 0 auto; */
+
+    width: 60%;          
+    height : 100vh;
+    margin-left: 0 auto;
+}
+
+header{
+    width: 80%;
+    height: 90px;
+    background-color: blue;
+    color :white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+header > h1, header > p {
+    padding: 10px 30px;
+}
+
+
+a{
+    color : white;
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color : black;
+    
+}
+article {
+    width : 60%;
+    height : 80%;
+   
+    padding: 10px , 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+   
+
+}
+
+p{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    color : black;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+
+ 
+
+#btDiv071 {
+    border : 1px dotted black;
+    width: 100%;
+    height: 5vh;
+    font-size: 30px;
+    margin : 10px;
+    text-align: center;
+    background-color: lightblue;
+    
+  } 
+   
+#btDiv072 {
+    border : 1px dotted black;
+    width: 100%;
+    height: 10vh;
+    margin : 10px;
+ 
+  
+
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+  } 
+   
+#btDiv072 > section {
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+    margin  : 0, 30px;
+    
+  }
+
+section > #ct {
+    display: flex;
+   
+    justify-content:  center;
+    align-items: center;
+    margin-left: 50%;
+}
+section > #labelct{
+ 
+    justify-content:  center;
+    align-items: center;
+    margin-left: 50%;
+
+}
+
+section > #ft {
+    display: flex;
+   
+    justify-content:  center;
+    align-items: center;
+    margin-left: 10%;
+}
+section > #labelft{
+ 
+    justify-content:  center;
+    align-items: center;
+    margin-left: 10%;
+
+}
+
+#inputft, #inputct {
+    background-color: beige;
+}

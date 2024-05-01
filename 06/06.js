@@ -34,18 +34,23 @@
             return;           //이후 함수로 가지 않는다.
         }
 
-        if (!((inputbox.value >= 1) && (inputbox.value <= 100))){
+        const userinput = parseInt(inputbox.value);     //input박스 입력은 문자열타입이다.
+
+
+        if (!((userinput >= 1) && (userinput <= 100))){
             alert('1부터 100의 숫자범위가 아닙니다.')
             inputbox.focus(); //입력박스에 cursor가 있다.
             return;
         }
         
-      
-        if (inputbox.value >n) {
+        
+        let imgName;
+
+        if (userinput >n) {
                 updownimg.setAttribute('src', `./img/down.png`);
                 inputbox.focus(); 
         }
-        else if (inputbox.value < n){
+        else if (userinput < n){
               updownimg.setAttribute('src', `./img/up.png`);
               inputbox.focus(); 
         }
